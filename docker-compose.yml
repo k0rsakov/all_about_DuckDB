@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:lab-4.0.7
+    container_name: jupyter_for_duckdb
+    restart: always
+    # Заменить volumes до двоеточия на свой или вовсе уберите указание volumes
+    volumes:
+      - /Users/i.korsakov/_code/:/home/jovyan/_code
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "docker"
+      NB_USER: "root"
+      GRANT_SUDO: "yes"
