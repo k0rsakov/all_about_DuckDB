@@ -5,7 +5,7 @@ services:
     image: jupyter/datascience-notebook:lab-4.0.7
     container_name: jupyter_for_duckdb
     restart: always
-    # Заменить volumes до двоеточия на свой или вовсе уберите указание volumes
+    # Заменить volumes до двоеточия на свой или вовсе уберите указание volumes, но тогда все изменения будут внутри контейнера
     volumes:
       - /Users/i.korsakov/_code/:/home/jovyan/_code
     ports:
