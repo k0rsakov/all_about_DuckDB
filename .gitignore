@@ -162,3 +162,4 @@ cython_debug/
 .idea/
 code/foo.py
 code/demo_duckdb.duckdb
+code/.ipynb_checkpoints
