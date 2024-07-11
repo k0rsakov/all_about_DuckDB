@@ -163,3 +163,4 @@ cython_debug/
 code/foo.py
 code/demo_duckdb.duckdb
 code/.ipynb_checkpoints
+data
