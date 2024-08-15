@@ -1,6 +1,4 @@
-# all_about_DuckDB
-
-Всё что нужно знать про DuckDB
+# Всё что нужно знать про DuckDB
 
 Статья на [habr](https://habr.com/ru/articles/829502/)
 
